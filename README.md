@@ -1,4 +1,12 @@
 
+First, run the program using the following command
+
+```
+mvn clean package
+cd target/bin
+./WebSocket-demo -ip 127.0.0.1 -port 8080
+```
+
 Open your web browser, open this link:  http://www.websocket.org/echo.html
  
 And if you see "This web browser support WebSocket", which means you can test
